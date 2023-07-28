@@ -1,4 +1,4 @@
-﻿#region Using Libraries
+#region Using Libraries
 using Microsoft.Win32;
 using System;
 using System.CodeDom;
@@ -17,8 +17,7 @@ namespace SmartPro_10
         {
             String CP;
             Console.WriteLine("Select Calculation");
-            Console.WriteLine("Pow, Sqrt, Abs, Floor, Ceiling, Max, Min, \n" +
-                "Sin, Asin, Cos, Acos, Tan, Atan, PI, E");
+            Console.WriteLine("Pow, Sqrt, Abs, Floor, Ceiling, Max, Min, \nSin, Asin, Cos, Acos, Tan, Atan, PI, E");
             Console.Write("=> ");
             CP = Console.ReadLine();
 
@@ -158,26 +157,7 @@ namespace SmartPro_10
                 }
             }
             else { Console.WriteLine("Wrong way!"); }
-
-
             Console.ReadKey();
-            /*
-            Console.WriteLine(Math.Pow(5,4));           -
-            Console.WriteLine(Math.Sqrt(64));           -
-            Console.WriteLine(Math.Abs(-12));           -
-            Console.WriteLine(Math.Floor(6.872));       -
-            Console.WriteLine(Math.Ceiling(6.872));     -
-            Console.WriteLine(Math.Max(48,35));         -
-            Console.WriteLine(Math.Min(48,35));         -
-            Console.WriteLine(Math.Sin(10));            -
-            Console.WriteLine(Math.Asin(-10));          -
-            Console.WriteLine(Math.Cos(10));            -
-            Console.WriteLine(Math.Acos(10));           -
-            Console.WriteLine(Math.Tan(10));            -
-            Console.WriteLine(Math.Atan(-10));          -
-            Console.WriteLine(Math.PI);                 -
-            Console.WriteLine(Math.E);                  -
-            */
         }
     }
 }
